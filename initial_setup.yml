@@ -1,0 +1,6 @@
+---
+# playbook for initial package installation
+- name: Install packages
+  hosts: all
+  roles:
+   - packages

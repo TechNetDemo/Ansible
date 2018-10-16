@@ -1,0 +1,7 @@
+---
+- name: Install wget package
+  yum:
+   name: wget
+   state: installed
+  tags:
+   - system

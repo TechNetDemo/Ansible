@@ -1,0 +1,14 @@
+---
+# tasks file for common
+
+- name: Include tasks - install net-tools 
+  include_tasks: install_network_tools.yml
+
+- name: Include tasks - install wget
+  include_tasks: install_wget.yml
+
+- name: Include tasks - install telnet
+  include_tasks: install_telnet.yml
+
+- name: Include tasks - install git
+  include_tasks: install_git.yml

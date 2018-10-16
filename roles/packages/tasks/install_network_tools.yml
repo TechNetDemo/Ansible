@@ -1,0 +1,7 @@
+---
+- name: Install net-tools
+  yum:
+   name: net-tools
+   state: installed
+  tags:
+   - network
